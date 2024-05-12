@@ -196,6 +196,7 @@ jobs:
 Подсоединяем нужный репозиторий через графический интерфейс coveralls.io
 Копируем с разметкой Markdown для отправки информации о покрытии кода, содержащейся в файле coverage.info, на сервис Coveralls.io.
 
+
 Результат:
 [![Coverage Status](https://coveralls.io/repos/github/PhilippD3/lab05/badge.svg?branch=master)](https://coveralls.io/github/PhilippD3/lab05?branch=master)
 
