@@ -8,11 +8,11 @@
 3. Настройте сборочную процедуру на TravisCI.
 4. Настройте Coveralls.io.
 
-# 1)Для начала клонируем репозиторий лабораторной https://github.com/tp-labs/lab05
+# 1)Kлонируем репозиторий лабораторной https://github.com/tp-labs/lab05
 ```bash
 Команда: git clone https://github.com/tp-labs/lab05
 ```
-Далее переходим в репозиторий и создаем файл для библиотеки banking CMakeListst.txt
+Cоздаем файл для библиотеки banking CMakeListst.txt
 Записываем в файл:
 
 ```bash
@@ -40,7 +40,6 @@ if(BUILD_TESTS)
   add_test(NAME check COMMAND check)
 endif()
 ```
-Линкуем gcov к библиотеке banking, - чтобы были отчёты о покрытии 
 
 # 2) Создаем папку tests и создаем в ней файл tests.cpp
 
@@ -140,7 +139,7 @@ TEST(Transaction, SimpleTest) {
 Создаем директорию .github/workflows и файл CI.yml:
 
 ```bash
-Команда:mkdir .github/workflows
+Команда:mkdir -p .github/workflows
 Команда:touch CI.yml
 ```
 
