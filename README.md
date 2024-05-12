@@ -197,7 +197,7 @@ jobs:
 Копируем с разметкой Markdown для отправки информации о покрытии кода, содержащейся в файле coverage.info, на сервис Coveralls.io.
 
 Результат:
-[![Coverage Status](https://coveralls.io/repos/github/kuznetsovvvv/lab005/badge.svg?branch=master)](https://coveralls.io/github/kuznetsovvvv/lab005?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/PhilippD3/lab05/badge.svg)](https://coveralls.io/github/PhilippD3/lab05)
 
 
 
